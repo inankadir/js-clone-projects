@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;600;700&family=Roboto:wght@100;300;400;700;900&family=Urbanist:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --whiteColor: #ffffff;
+    --blackColor: #111b21;
+    --mainColor: #008069;
+    --greenColor: #25d366;
+    --gayColor: #8696a0;
+    --settingColor: #3b4a54;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-color: #f2eadf;
+}
+
+.container {
+    position: relative;
+    width: 34rem;
+    height: 60rem;
+    background-color: var(--whiteColor);
+    box-shadow: 0 .5rem .5rem rgba(0 0 0 / .15);
+    overflow: hidden;
+}
+
+/* Start Header Section */
+.header {
+    position: relative;
+    background-color: var(--mainColor);
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .logo {
+    color: var(--whiteColor);
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+.header .icons {}
+.header .icons i {}
+/* End Header Section */

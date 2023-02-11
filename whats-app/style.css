@@ -53,6 +53,43 @@ body {
     font-weight: 600;
     font-size: 1.8rem;
 }
-.header .icons {}
-.header .icons i {}
+
+.header .icons {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    color: var(--whiteColor);
+    font-size: 1.6rem;
+}
+
+.header .icons i {
+    cursor: pointer;
+}
 /* End Header Section */
+/* Start Tabs Section */
+.tabs {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    background-color: var(--mainColor);
+    padding: 0.5rem 0;
+    box-sizing: 0 .2rem .5rem rgba(0 0 0 / .15);
+}
+
+.tabs li {
+    position: relative;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: var(--whiteColor);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    opacity: .75;
+    cursor: pointer;
+}
+
+.tabs li {}
+.tabs li {}
+/* End Tabs Section */
